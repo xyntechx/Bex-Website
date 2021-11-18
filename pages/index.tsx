@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.sass";
 
 const Home: NextPage = () => {
@@ -16,8 +17,32 @@ const Home: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <div className={styles.profilePic}>Rebecca Iskandar</div>
-                <div className={styles.link}>placeholder link :0</div>
+                <h1 className={styles.title}>Rebecca</h1>
+                <div className={styles.container}>
+                    <div className={styles.smallContainer}>
+                        <Link href="/poems">
+                            <a className={styles.link}>Poems</a>
+                        </Link>
+                        <Link href="/fiction">
+                            <a className={styles.link}>Fiction</a>
+                        </Link>
+                    </div>
+                    <Image
+                        src="/rebecca.jpg"
+                        alt="Rebecca's Profile Picture"
+                        className={styles.bounce}
+                        width={300}
+                        height={300}
+                    />
+                    <div className={styles.smallContainer}>
+                        <Link href="/reviews">
+                            <a className={styles.link}>Reviews</a>
+                        </Link>
+                        <Link href="/artworks">
+                            <a className={styles.link}>Artworks</a>
+                        </Link>
+                    </div>
+                </div>
             </main>
         </div>
     );
