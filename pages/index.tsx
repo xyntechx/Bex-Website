@@ -18,11 +18,14 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>Rebecca Iskandar</h1>
-                <sub>Hmm... the picture seems to be bouncing... why don't you hover over it?</sub>
+                <sub>
+                    Hmm... the picture seems to be bouncing... why don't you
+                    hover over it?
+                </sub>
                 <div className={styles.container}>
                     <div className={styles.smallContainer}>
-                        <Link href="/poems">
-                            <a className={styles.link}>Poems</a>
+                        <Link href="/about">
+                            <a className={styles.link}>About</a>
                         </Link>
                         <Link href="/fiction">
                             <a className={styles.link}>Fiction</a>
@@ -36,8 +39,8 @@ const Home: NextPage = () => {
                         height={300}
                     />
                     <div className={styles.smallContainer}>
-                        <Link href="/reviews">
-                            <a className={styles.link}>Reviews</a>
+                        <Link href="/poems">
+                            <a className={styles.link}>Poems</a>
                         </Link>
                         <Link href="/artworks">
                             <a className={styles.link}>Artworks</a>

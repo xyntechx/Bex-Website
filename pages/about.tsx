@@ -3,10 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.sass";
 
-const Reviews: NextPage = () => {
+const About: NextPage = () => {
     return (
-        <h1>Reviews</h1>
+        <h1>About</h1>
     );
 };
 
-export default Reviews;
+export default About;
