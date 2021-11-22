@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             <main className={styles.main}>
                 <h1 className={styles.title}>Rebecca Iskandar</h1>
                 <sub>
-                    Hmm... the picture seems to be bouncing... why don't you
+                    Hmm... the picture seems to be bouncing... why don&apos;t you
                     hover over it?
                 </sub>
                 <div className={styles.container}>
