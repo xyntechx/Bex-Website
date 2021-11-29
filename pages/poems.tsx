@@ -5,7 +5,20 @@ import styles from "../styles/Home.module.sass";
 
 const Poems: NextPage = () => {
     return (
-        <h1>Poems</h1>
+        <div className={styles.container}>
+            <Head>
+                <title>Rebecca Iskandar</title>
+                <meta
+                    name="description"
+                    content="Rebecca Iskandar's Website | Coded with ❤️ by Nyx Iskandar"
+                />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <main className={styles.main}>
+                <h1>Poems</h1>
+            </main>
+        </div>
     );
 };
 
