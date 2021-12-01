@@ -3,80 +3,43 @@
     align-items: center
     justify-content: center
 
-// @media (min-width: 1150px)
 .artworkGrid
     width: 100vw
     min-height: 100vh
-
-    // margin: 2rem
 
     display: grid
     gap: 1rem
     justify-content: center
 
-    grid-template-areas: "a b c d" "a b c d" "l l e f" "g i e f" "g i h h" "k k n n" "j o p q" "j o p q" "s s v v" "s s v v" "r m t u" "r m t u"
-        // "b  a  c  d"
-        // "b  🌟 🌟  g"
-        // "b  🌟 🌟  g"
-        // "j  i  h  g"
+    grid-template-areas: "a b c d" "a b c d" "l l h h" "g i h h" "g i h h" "k k n n" "j o p q" "j o p q" "s e f v" "s e f v" "r m t u" "r m t u"
 
     grid-template-rows: repeat(11, 30%)
     grid-template-columns: repeat(4, 20%)
 
-// @media (max-width: 1300px)
-//     .animatedgrid
-//         width: 100vw
-//         height: 85vh
+@media (max-width: 1150px)
+    .artworkGrid
+        grid-template-areas: "a b" "a b" "c d" "c d" "l l" "h h" "h h" "g i" "g i" "k k" "n n" "j o" "j o" "p q" "p q" "s e" "s e" "f v" "f v" "r m" "r m" "t u" "t u"
 
-//         margin: 2rem
+        grid-template-rows: repeat(22, 50%)
+        grid-template-columns: repeat(2, 50%)
 
-//         display: grid
-//         gap: 0.5rem
+@media (max-width: 920px)
+    .artworkGrid
+        grid-template-areas: "a b" "a b" "c d" "c d" "l l" "h h" "h h" "g i" "g i" "k k" "n n" "j o" "j o" "p q" "p q" "s e" "s e" "f v" "f v" "r m" "r m" "t u" "t u"
 
-//         grid-template-areas:
-//             "k  f  d"
-//             "k  🌟 e"
-//             "c  h  e"
+        grid-template-rows: repeat(22, 40%)
+        grid-template-columns: repeat(2, 50%)
 
-//         grid-template-rows: repeat(3, 33%)
-//         grid-template-columns: repeat(3, 33%)
+@media (max-width: 620px)
+    .artworkGrid
+        grid-template-areas: "a b" "a b" "c d" "c d" "l l" "h h" "h h" "g i" "g i" "k k" "n n" "j o" "j o" "p q" "p q" "s e" "s e" "f v" "f v" "r m" "r m" "t u" "t u"
 
-// @media (max-width: 1000px)
-//     .animatedgrid
-//         width: 100vw
-//         height: 85vh
-
-//         margin: 2rem
-
-//         display: grid
-//         gap: 0.5rem
-
-//         grid-template-areas:
-//             "i  c"
-//             "🌟  🌟"
-//             "e  k"
-
-//         grid-template-rows: repeat(3, 33%)
-//         grid-template-columns: repeat(2, 50%)
-
-// @keyframes cardEntrance
-//     from
-//         opacity: 0
-//         transform: scale(0.3)
-
-//     to
-//         opacity: 1
-//         transform: scale(1)
+        grid-template-rows: repeat(22, 25%)
+        grid-template-columns: repeat(2, 50%)
 
 .card
-    // animation: cardEntrance 700ms ease-out
-    // animation-fill-mode: backwards
-    // box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
-    //     rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem
     height: 100%
     width: 100% !important
-    // border-radius: 1rem
-    // transition: all 500ms
     background-color: transparent
     position: relative
 
