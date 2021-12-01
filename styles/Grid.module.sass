@@ -1,0 +1,153 @@
+.container
+    display: flex
+    align-items: center
+    justify-content: center
+
+// @media (min-width: 1150px)
+.artworkGrid
+    width: 100vw
+    min-height: 100vh
+
+    // margin: 2rem
+
+    display: grid
+    gap: 1rem
+    justify-content: center
+
+    grid-template-areas: "a b c d" "a b c d" "l l e f" "g i e f" "g i h h" "k k n n" "j o p q" "j o p q" "s s v v" "s s v v" "r m t u" "r m t u"
+        // "b  a  c  d"
+        // "b  🌟 🌟  g"
+        // "b  🌟 🌟  g"
+        // "j  i  h  g"
+
+    grid-template-rows: repeat(11, 30%)
+    grid-template-columns: repeat(4, 20%)
+
+// @media (max-width: 1300px)
+//     .animatedgrid
+//         width: 100vw
+//         height: 85vh
+
+//         margin: 2rem
+
+//         display: grid
+//         gap: 0.5rem
+
+//         grid-template-areas:
+//             "k  f  d"
+//             "k  🌟 e"
+//             "c  h  e"
+
+//         grid-template-rows: repeat(3, 33%)
+//         grid-template-columns: repeat(3, 33%)
+
+// @media (max-width: 1000px)
+//     .animatedgrid
+//         width: 100vw
+//         height: 85vh
+
+//         margin: 2rem
+
+//         display: grid
+//         gap: 0.5rem
+
+//         grid-template-areas:
+//             "i  c"
+//             "🌟  🌟"
+//             "e  k"
+
+//         grid-template-rows: repeat(3, 33%)
+//         grid-template-columns: repeat(2, 50%)
+
+// @keyframes cardEntrance
+//     from
+//         opacity: 0
+//         transform: scale(0.3)
+
+//     to
+//         opacity: 1
+//         transform: scale(1)
+
+.card
+    // animation: cardEntrance 700ms ease-out
+    // animation-fill-mode: backwards
+    // box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    //     rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem
+    height: 100%
+    width: 100% !important
+    // border-radius: 1rem
+    // transition: all 500ms
+    background-color: transparent
+    position: relative
+
+.card .image
+    object-fit: cover
+    height: 100%
+    width: 100% !important
+    position: relative !important
+
+.card:nth-child(1)
+    grid-area: a
+
+.card:nth-child(2)
+    grid-area: b
+
+.card:nth-child(3)
+    grid-area: c
+
+.card:nth-child(4)
+    grid-area: d
+
+.card:nth-child(5)
+    grid-area: e
+
+.card:nth-child(6)
+    grid-area: f
+
+.card:nth-child(7)
+    grid-area: g
+
+.card:nth-child(8)
+    grid-area: h
+
+.card:nth-child(9)
+    grid-area: i
+
+.card:nth-child(10)
+    grid-area: j
+
+.card:nth-child(11)
+    grid-area: k
+
+.card:nth-child(12)
+    grid-area: l
+
+.card:nth-child(13)
+    grid-area: m
+
+.card:nth-child(14)
+    grid-area: n
+
+.card:nth-child(15)
+    grid-area: o
+
+.card:nth-child(16)
+    grid-area: p
+
+.card:nth-child(17)
+    grid-area: q
+
+.card:nth-child(18)
+    grid-area: r
+
+.card:nth-child(19)
+    grid-area: s
+
+.card:nth-child(20)
+    grid-area: t
+
+.card:nth-child(21)
+    grid-area: u
+
+.card:nth-child(22)
+    grid-area: v
