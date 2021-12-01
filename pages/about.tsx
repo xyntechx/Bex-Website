@@ -16,7 +16,7 @@ const About: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <h1>About</h1>
+                <h1 className={styles.title}>About</h1>
                 <p>👋 Hi there!</p>
             </main>
         </div>

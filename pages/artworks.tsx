@@ -17,7 +17,7 @@ const Artworks: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <h1>Artworks</h1>
+                <h1 className={styles.title}>Artworks</h1>
                 <section className={grid.container}>
                     <section className={grid.artworkGrid}>
                         <div className={grid.card}>

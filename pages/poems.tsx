@@ -16,7 +16,7 @@ const Poems: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <h1>Poems</h1>
+                <h1 className={styles.title}>Poems</h1>
             </main>
         </div>
     );
