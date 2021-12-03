@@ -37,21 +37,21 @@ const Home: NextPage = () => {
                             art
                         </a>
                     </Link>
-                    . In fact, I am a member of the Art Club of Raffles Girls'
-                    School (Secondary) where I explore and develop my artistic
-                    skills. Sometimes, you can spot me drawing either digitally
-                    or on paper, or listening to pop music. More often,
-                    it&apos;s both! I also enjoy watching K-Dramas, Hollywood
-                    films, as well as animations - be it Anime or Disney.
-                    Frankly, I see myself as someone who doesn&apos;t have a
-                    specific preference for anything such as food, movies,
-                    fashion, aesthetics or even art style; I&apos;m someone who
-                    simply loves to experiment with and have a little taste of
-                    everything, making me somewhat of a jack-of-all-trades. This
-                    may be caused by my endless curiosity and restlessness (or
-                    my indecisiveness 👀). Either way, I&apos;m someone who
-                    constantly looks for new experiences, never settling with
-                    just one constant.
+                    . In fact, I am a member of the Art Club of Raffles
+                    Girls&apos; School (Secondary) where I explore and develop
+                    my artistic skills. Sometimes, you can spot me drawing
+                    either digitally or on paper, or listening to pop music.
+                    More often, it&apos;s both! I also enjoy watching K-Dramas,
+                    Hollywood films, as well as animations - be it Anime or
+                    Disney. Frankly, I see myself as someone who doesn&apos;t
+                    have a specific preference for anything such as food,
+                    movies, fashion, aesthetics or even art style; I&apos;m
+                    someone who simply loves to experiment with and have a
+                    little taste of everything, making me somewhat of a
+                    jack-of-all-trades. This may be caused by my endless
+                    curiosity and restlessness (or my indecisiveness 👀). Either
+                    way, I&apos;m someone who constantly looks for new
+                    experiences, never settling with just one constant.
                 </p>
                 <br />
                 <br />
