@@ -8,57 +8,20 @@
   align-items: center
 
 .title
-  font-size: 4rem
+  font-size: 3rem
+
+.text, .link
+  font-size: 1.5rem
 
 .link
-  display: block
-  background: #ae63ec
-  border-radius: 1rem
-  color: #0b0c0f
-  text-decoration: none
-  padding: 2rem
-  text-align: center
-  font-size: 2rem
-  transition: 0.5s
-  margin: 2rem 0
-
+  color: #bf48f7
+  transition: color 0.5s
   &:hover
-    background: #9731eb
+    color: #ad06fa
 
-.container
-  display: flex
-  align-items: center
-  justify-items: center
-  column-gap: 2rem
+@media (max-width: 800px)
+  .title
+    font-size: 2rem
 
-  &:not(:focus-within):not(:hover)
-    .link
-      background: #0b0c0f
-
-.bounce
-  animation: bounce 1s infinite
-  cursor: pointer
-
-@keyframes bounce
-  0%, 100%
-    transform: translateY(-5%)
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1)
-
-  50%
-    transform: translateY(0)
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1)
-
-@media (max-width: 1150px)
-  .container
-    flex-direction: column
-    row-gap: 2rem
-
-  .smallContainer
-    display: flex
-    align-items: center
-    justify-items: center
-    column-gap: 2rem
-
-  .link
-    margin-top: 0
+  .text, .link
     font-size: 1rem
