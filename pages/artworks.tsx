@@ -8,7 +8,7 @@ const Artworks: NextPage = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Rebecca Iskandar</title>
+                <title>Rebecca&apos;s Art</title>
                 <meta
                     name="description"
                     content="Rebecca Iskandar's Website | Coded with ❤️ by Nyx Iskandar"
