@@ -6,12 +6,17 @@
   flex-direction: column
   justify-content: center
   align-items: center
+  margin: 0 10rem
 
 .title
   font-size: 3rem
 
-.text, .link
+.text, .link, .intro, .social
   font-size: 1.5rem
+  text-align: center
+
+.text, .link
+  text-align: justify
 
 .link
   color: #bf48f7
@@ -19,9 +24,24 @@
   &:hover
     color: #ad06fa
 
+.social
+  display: flex
+  align-items: center
+  justify-content: center
+
+  a
+    padding-left: 0.5rem
+
 @media (max-width: 800px)
+  .main
+    margin: 0 3rem
+
   .title
     font-size: 2rem
 
-  .text, .link
+  .text, .link, .intro, .social
     font-size: 1rem
+
+  .social
+    a
+      padding-left: 0.3rem
