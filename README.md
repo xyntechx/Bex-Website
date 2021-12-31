@@ -1,4 +1,4 @@
-# My DBZ
+# Bex Website
 The code for my sister's website!
 
 ## 🤖 Technologies
